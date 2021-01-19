@@ -61,12 +61,12 @@ class Animation {
 
       if (this.dead){
           this.stun --;
-          ctx.font = "200px Papyrus";
+          ctx.font = "150px Papyrus";
           ctx.fillStyle = "Red";
           ctx.fillText("DEAD", 10, 260);
           ctx.font = "15px Papyrus";
           ctx.fillStyle = "Red";
-          ctx.fillText("don't bring a gun to a cactus fight", 350, 350);
+          ctx.fillText("don't bring a gun to a cactus fight", 400, 350);
           if (this.stun == 0){
              this.removeFromWorld = true;
           }

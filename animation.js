@@ -66,7 +66,7 @@ class Animation {
           ctx.fillText("DEAD", 10, 260);
           ctx.font = "15px Papyrus";
           ctx.fillStyle = "Red";
-          ctx.fillText("don't bring a gun to a cactus fight", 300, 350);
+          ctx.fillText("don't bring a gun to a cactus fight", 350, 350);
           if (this.stun == 0){
              this.removeFromWorld = true;
           }

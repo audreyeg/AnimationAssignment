@@ -61,7 +61,7 @@ class Animation {
 
       if (this.dead){
           this.stun --;
-          ctx.font = "260px Papyrus";
+          ctx.font = "200px Papyrus";
           ctx.fillStyle = "Red";
           ctx.fillText("DEAD", 10, 300);
           ctx.font = "15px Papyrus";

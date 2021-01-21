@@ -20,5 +20,16 @@
 <body> 
     <canvas id="game" width="850" height="550" style="background: tan ; border: 1px solid black" tabindex="1"></canvas>
     <p>Use arrow keys to move around. Press space to shoot. Careful of the cacti, they will hurt!</p>
+    
+     <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+    </script>
+
+    <input type="button" value="PLAY" onclick="play()">
+    <audio loop id="audio" src="westerntheme.mp3"></audio>
+    
 </body>
 </html>
